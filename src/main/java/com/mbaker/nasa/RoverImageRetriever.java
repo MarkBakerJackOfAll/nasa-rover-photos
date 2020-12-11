@@ -45,7 +45,7 @@ class RoverImageRetriever {
                 PhotoQueryResponse response = roverApi.query(date, DEFAULT_ROVER);
                 List<PhotoMetadata> photos = response.getPhotos();
 
-                logger.debug("Downloading from [{}]", date);
+                logger.info("Downloading from [{}]", date);
                 if(downloadAll) {
                     //Itterate over all photos and download them
                     for(PhotoMetadata photo : photos) {
