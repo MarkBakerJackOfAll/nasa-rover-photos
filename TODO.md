@@ -21,6 +21,7 @@
 * Talk to Customer about modifying api to allow specification of camera desired
 * Docker Image
 * Kubernetes Helm chart
+* Switch to service
 * Add UI
 
 
