@@ -28,7 +28,3 @@ jar {
     from configurations.compile.collect { zipTree(it) }
     from configurations.runtime.collect { zipTree(it) }
 }
-
-//tasks.withType(JavaCompile) {
-//    options.compilerArgs << "-Xlint:deprecation"
-//}
