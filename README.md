@@ -23,7 +23,7 @@ Hello!  My name is Mark Baker, but people call me Baker at work.  Hopefully you 
 
 ## Run Instructions
 
-java -jar `<local-path-to-project>`/build/libs/nasa-rover-photos-1.0.0.jar `<local-path-to-project>`/src/main/resources/inputFile.txt
+java -jar {local-path-to-project}/build/libs/nasa-rover-photos-1.0.0.jar {local-path-to-project}/src/main/resources/inputFile.txt
 
 ### Advanced Run Instructions
 The above is the minimum to run against the file described in the project description.  You can pass any file path, relative or absolute as the first commandline argument.  Any additional arguments will be ignored.  You can also choose to pass in no arguments and the code will default to using /tmp/inputFile.txt to parse dates from.
